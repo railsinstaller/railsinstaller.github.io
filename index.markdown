@@ -2,5 +2,27 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: page
 ---
+<section class="hero">
+  <div class="contain">
+  <p class="hero__text">RailsInstaller is the quickest way to go from zero to developing Ruby on Rails applications. Whether you're on Windows or Mac, RailsInstaller has you covered.</p>
+  <a href="https://github.com/railsinstaller/railsinstaller-windows/releases/tag/v4.0.0-alpha" target="_blank" class="button">Download RailsInstaller</a>
+  </div>
+</section>
+
+
+<section class="news">
+  <div class="contain">
+  <h2>News</h2>
+    {% for post in site.posts limit:5 %}
+        <article>
+          <h3>{{ post.title | escape }}</h3>
+          
+          <p>{{ content }}</p>
+  
+          <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        </article>
+    {% endfor %}
+  </div>
+</section>

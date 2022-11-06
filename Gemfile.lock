@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/railsinstaller/websitev4-theme.git
+  revision: bdca1e6cac1267192b1c33fc3e97d7977b84e3ce
+  specs:
+    railsinstaller-website-theme (0.1.0)
+      jekyll (~> 3.9.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -252,6 +259,7 @@ GEM
     unf_ext (0.0.8.2-x64-mingw-ucrt)
     unicode-display_width (1.8.0)
     wdm (0.1.1)
+    webrick (1.7.0)
     zeitwerk (2.6.5)
 
 PLATFORMS
@@ -261,10 +269,11 @@ DEPENDENCIES
   github-pages (~> 227)
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
-  minima (~> 2.5)
+  railsinstaller-website-theme!
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.3.22
