@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: railsinstaller-website-theme
+remote_theme: railsinstaller/websitev4-theme
 plugins:
   - jekyll-feed
 
