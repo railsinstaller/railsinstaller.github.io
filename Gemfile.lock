@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/railsinstaller/websitev4-theme.git
-  revision: bdca1e6cac1267192b1c33fc3e97d7977b84e3ce
+  revision: e2152e20f0c817a07ce87cf35509b10793cdf97e
   specs:
     railsinstaller-website-theme (0.1.0)
       jekyll (~> 3.9.2)
