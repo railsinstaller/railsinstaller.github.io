@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/railsinstaller/websitev4-theme.git
-  revision: e2152e20f0c817a07ce87cf35509b10793cdf97e
+  revision: 7abaa72bf47c7b6e9bd612153ef284b6de252702
   specs:
     railsinstaller-website-theme (0.1.0)
       jekyll (~> 3.9.2)
@@ -32,10 +32,10 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     execjs (2.8.1)
-    faraday (2.6.0)
+    faraday (2.7.0)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
-    faraday-net_http (3.0.1)
+    faraday-net_http (3.0.2)
     ffi (1.15.5-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
@@ -260,7 +260,7 @@ GEM
     unicode-display_width (1.8.0)
     wdm (0.1.1)
     webrick (1.7.0)
-    zeitwerk (2.6.5)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   x64-mingw-ucrt
