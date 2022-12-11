@@ -1,18 +1,17 @@
 ---
 layout: post
-title:  "RailsInstaller V4 released!"
-date:   2022-11-16 19:40:00 +0000
+title: "RailsInstaller V4 released!"
+date: 2022-11-16 19:40:00 +0000
 categories: releases
 ---
 
-First aplha release of the RailsInstaller fully updated to the latest version of Rails, Ruby & working SQLite.
+We are excited to announce the first alpha release of RailsInstaller V4, fully updated to the latest versions of Rails and Ruby, with a pre-configured SQLite database.
 
 - Ruby 3.1.2
 - Rails 7.0.4
 - devkit msys64
-- pre-configure SQLite
+- pre-configured SQLite
 
-NOTE: 64bit version only & you will need to download and install git, node, yarn before installing this version of railsinstaller.
+Please note that this release is only available for the 64-bit version, and you will need to download and install git, node, and yarn before installing RailsInstaller.
 
-
-Any issues please open issue on GitHub.
+If you encounter any issues, please open an issue on GitHub. We welcome your feedback and look forward to continuing to improve RailsInstaller.
